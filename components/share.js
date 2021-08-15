@@ -12,8 +12,10 @@ export default function Share({ cid }) {
     setValue('Copied!');
     setTimeout(() => {
       setValue(url);
+      event.target.blur();
     }, 1000);
   };
+
   return (
     <div className=' w-full mt-5 relative rounded-md shadow-sm'>
       <div className='absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none'>
