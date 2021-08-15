@@ -32,7 +32,7 @@ export default function Post({ cid, data }) {
           </div>
         </div>
       ) : (
-        <div className='flex flex-col items-center justify-top max-w-3xl flex-1 px-20 text-center'>
+        <div className='flex flex-col items-center justify-top max-w-3xl flex-1 px-5 text-center'>
           <Share cid={cid} />
           <ul className='mt-5 grid gap-5'>
             {data.map((file) => (
