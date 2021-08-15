@@ -1,0 +1,39 @@
+.filepond--root {
+  font-family: Inter var !important;
+}
+
+/* the background color of the filepond drop area */
+.filepond--panel-root {
+  background-color: #1f2937 !important;
+}
+
+.filepond--label-action {
+  color: #9ca3af;
+  text-decoration: none !important;
+}
+
+.filepond--label-action:hover {
+  color: #e5e7eb !important;
+  text-decoration: underline !important;
+}
+
+.filepond--drop-label label {
+  color: #fff !important;
+}
+
+/* the background color of the file and file panel (used when dropping an image) */
+.filepond--item-panel {
+  background-color: #000 !important;
+}
+
+.filepond--image-preview-overlay-success {
+  color: rgb(0, 0, 0) !important;
+}
+
+.react-audio-player {
+  margin: 0 auto;
+}
+
+audio {
+  width: 100% !important;
+}

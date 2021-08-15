@@ -6,13 +6,26 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.3",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "axios": "^0.21.1",
+    "file-saver": "^2.0.5",
+    "filepond": "^4.28.2",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.7",
+    "ipfs-http-client": "^52.0.0",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-audio-player": "^0.17.0",
+    "react-dom": "^17.0.2",
+    "react-filepond": "^7.1.1",
+    "video.js": "^7.12.4",
+    "web3.storage": "^3.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.7"
   }
 }
