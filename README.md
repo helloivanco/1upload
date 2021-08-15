@@ -8,7 +8,7 @@ Preview live example [1upload.vercel.app](https://1upload.vercel.app/)
 
 ## Settings
 
-Set variables in .env.local file
+Create a .env.local file
 
 ```
 NEXT_PUBLIC_BASE_URL=https://yourdomain.com/
