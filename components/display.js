@@ -21,7 +21,7 @@ export default function Display({ cid, name }) {
       )}
       {['mp4', 'mov', 'ogv', 'webm'].includes(extension) && <Video url={url} />}
       {['mp3', 'ogg', 'wav'].includes(extension) && <Audio url={url} />}
-      <div className='text-gray-700 px-5'>
+      <div className='text-gray-700 px-2'>
         <a onClick={_download} className='mr-2'>
           <span className='inline-flex align-middle items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-500'>
             <DownloadIcon
