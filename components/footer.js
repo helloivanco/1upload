@@ -12,7 +12,7 @@ export default function Footer() {
       |
       <a
         className='flex items-center justify-center ml-2 hover:underline'
-        href='https://web3.storage'
+        href='https://github.com/hellopaidco/1upload'
         target='_blank'
         rel='noopener noreferrer'>
         Github
