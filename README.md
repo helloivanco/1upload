@@ -4,14 +4,14 @@ A simple file host that uploads files to IPFS via Web3.Storage. Returns a sharin
 
 ## Preview
 
-Preview the example live on [1upload.vercel.app](https://1upload.vercel.app/):
+Preview live example [1upload.vercel.app](https://1upload.vercel.app/):
 
 ## Settings
 
 Set variables in .env.local file
 NEXT_PUBLIC_BASE_URL=https://yourdomain.com/
 NEXT_PUBLIC_GATEWAY_URL=https://ipfs.io/ipfs/
-NEXT_PUBLIC_API_TOKEN=YOURKEY
+NEXT_PUBLIC_API_TOKEN=WEB3STORAGETOKEN
 
 ## Run
 
