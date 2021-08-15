@@ -25,7 +25,7 @@ export default function Share({ cid }) {
         type='url'
         name='share'
         id='share'
-        className='block w-full pl-10 border-gray-300 rounded-md text-gray-500 bg-gray-300'
+        className='block w-full pl-10 border-black rounded-md text-gray-500 bg-gray-300'
         value={value}
         onFocus={handleFocus}
         readOnly
