@@ -37,3 +37,19 @@
 audio {
   width: 100% !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .video-js.vjs-fluid,
+  .video-js.vjs-16-9,
+  .video-js.vjs-4-3 {
+    width: 350px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .video-js.vjs-fluid,
+  .video-js.vjs-16-9,
+  .video-js.vjs-4-3 {
+    width: 640px !important;
+  }
+}

@@ -46,9 +46,5 @@ export default function Video({ url }) {
     ],
   };
 
-  return (
-    <div className='mb-2 w-96'>
-      <VideoJS options={videoJsOptions} />
-    </div>
-  );
+  return <VideoJS options={videoJsOptions} />;
 }
