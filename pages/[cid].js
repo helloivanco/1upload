@@ -26,7 +26,7 @@ export default function Post({ cid, data }) {
       </Link>
 
       {!data ? (
-        <div className='flex flex-col items-center justify-center w-full max-w-4xl flex-1 px-20 text-center'>
+        <div className='flex flex-col items-center justify-center w-full max-w-4xl flex-1 px-5 text-center'>
           <div className='font-extralight text-gray-300 text-3xl'>
             🤭 Link not found
           </div>

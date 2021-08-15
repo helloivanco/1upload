@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-col items-center justify-center min-h-screen bg-gradient-to-t from-gray-800 via-gray-900 to-black'>
-      <main className='flex flex-col items-center justify-center w-full max-w-4xl flex-1 px-20 text-center'>
+      <main className='flex flex-col items-center justify-center w-full max-w-4xl flex-1 px-5 text-center'>
         <h1 className='text-6xl tracking-tight font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-indigo-600'>
           1upload
         </h1>
