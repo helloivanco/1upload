@@ -1,8 +1,8 @@
-import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 import Footer from '../components/footer';
-import { storeWithProgress, storeJSON } from '../utils/storage';
+import { storeJSON, storeWithProgress } from '../utils/storage';
 
 // Import React FilePond
 import { FilePond, registerPlugin } from 'react-filepond';

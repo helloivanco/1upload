@@ -42,7 +42,7 @@ audio {
   .video-js.vjs-fluid,
   .video-js.vjs-16-9,
   .video-js.vjs-4-3 {
-    width: 360px !important;
+    width: 100% !important;
   }
 }
 
@@ -50,6 +50,6 @@ audio {
   .video-js.vjs-fluid,
   .video-js.vjs-16-9,
   .video-js.vjs-4-3 {
-    width: 640px !important;
+    width: 100% !important;
   }
 }

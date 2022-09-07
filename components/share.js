@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import { LinkIcon } from '@heroicons/react/solid';
+import { useState } from 'react';
 
 export default function Share({ cid }) {
   const url = process.env.NEXT_PUBLIC_BASE_URL + cid;
@@ -17,7 +17,7 @@ export default function Share({ cid }) {
   };
 
   return (
-    <div className=' w-full mt-5 relative rounded-md shadow-sm'>
+    <div className='w-full mt-5 relative rounded-md shadow-sm'>
       <div className='absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none'>
         <LinkIcon className='h-5 w-5 text-gray-400' aria-hidden='true' />
       </div>

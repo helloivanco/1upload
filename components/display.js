@@ -1,9 +1,9 @@
-import { saveAs } from 'file-saver';
 import { DownloadIcon } from '@heroicons/react/solid';
+import { saveAs } from 'file-saver';
 
+import Audio from './audio';
 import Photo from './photo';
 import Video from './video';
-import Audio from './audio';
 
 export default function Display({ cid, name }) {
   const extension = name.split('.').pop().toLowerCase();
@@ -15,7 +15,7 @@ export default function Display({ cid, name }) {
   };
 
   return (
-    <div className='bg-gray-700 shadow rounded-md pb-4'>
+    <div className='bg-gray-700 shadow rounded-md pb-4 w-full'>
       {['png', 'jpg', 'gif', 'jpeg', 'svg', 'webp'].includes(extension) && (
         <Photo url={url} />
       )}

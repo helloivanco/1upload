@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { getPost } from '../utils/retrieve';
 
 import Display from '../components/display';
-import Share from '../components/share';
 import Footer from '../components/footer';
+import Share from '../components/share';
 
 export async function getServerSideProps(context) {
   const cid = context.params.cid;
@@ -26,15 +26,15 @@ export default function Post({ cid, data }) {
       </Link>
 
       {!data ? (
-        <div className='flex flex-col items-center justify-center w-full max-w-4xl flex-1 px-5 text-center'>
+        <div className='flex flex-col items-center justify-center w-full max-w-xl flex-1 px-5 text-center'>
           <div className='font-extralight text-gray-300 text-3xl'>
             🤭 Link not found
           </div>
         </div>
       ) : (
-        <div className='flex flex-col items-center justify-top max-w-3xl flex-1 px-5 text-center'>
+        <div className='flex flex-col items-center justify-top max-w-3xl w-full flex-1 px-5 text-center'>
           <Share cid={cid} />
-          <ul className='mt-5 grid gap-5'>
+          <ul className='mt-5 grid gap-5 w-full'>
             {data.map((file) => (
               <li key={file.cid}>
                 <Display cid={file.cid} name={file.name} />
